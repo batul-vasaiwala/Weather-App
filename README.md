@@ -1,79 +1,44 @@
-Weather App
-This is a simple weather application that fetches and displays weather information for a specified city using the OpenWeatherMap API. It provides the location, weather icon, description, temperature, and dynamically changes the background image based on the current weather conditions.
+# Weather App
 
-Table of Contents
-Features
-Technologies
-Installation
-Usage
-File Structure
-API Key
-Customization
-License
+## Description
 
-Features
-Fetches weather data for a specified city using the OpenWeatherMap API.
-Displays the city name, country, weather icon, description, and temperature.
-Dynamically changes the background image based on the weather condition.
-Provides error messages for invalid city names or other issues.
-Technologies
-HTML
-CSS
-JavaScript
-OpenWeatherMap API
-Installation
-Clone the repository to your local machine.
-bash
-Copy code
-git clone https://github.com/yourusername/weather-app.git
-Navigate to the project directory.
-bash
-Copy code
-cd weather-app
-Ensure you have a valid OpenWeatherMap API key.
+A simple weather application that allows users to check the current weather for a specified city. The app fetches weather data from the OpenWeatherMap API and displays the current weather conditions including temperature, description, and an icon. The background image changes based on the weather conditions.
 
-Create a folder named images in the project directory and add the weather condition images (clear.webp, cloudy.webp, rainy.webp, snow.webp, thunderstorm.webp, drizzle.webp, mist.webp, default.webp).
+## Features
 
-Usage
-Open the index.html file in your preferred web browser.
+- **Weather Data:** Fetches and displays current weather information including temperature, weather description, and an icon.
+- **Dynamic Background:** Changes background image based on the weather conditions (e.g., clear, cloudy, rainy).
+- **Error Handling:** Displays an error message if the city is not found or if there is an issue with the API request.
 
-Enter the name of the city for which you want to fetch the weather information in the input field.
+## Technologies Used
 
-Click the "Get Weather" button to fetch and display the weather information.
+- **HTML:** Structure of the web page.
+- **CSS:** Styling for the app, including responsive design and dynamic background changes.
+- **JavaScript:** Handles API requests, data processing, and dynamic updates to the DOM.
+- **OpenWeatherMap API:** Provides weather data.
 
-File Structure
-arduino
-Copy code
-weather-app/
-│
-├── index.html
-├── styles.css
-├── script.js
-├── images/
-│   ├── clear.webp
-│   ├── cloudy.webp
-│   ├── rainy.webp
-│   ├── snow.webp
-│   ├── thunderstorm.webp
-│   ├── drizzle.webp
-│   ├── mist.webp
-│   └── default.webp
-└── README.md
-API Key
-This application uses the OpenWeatherMap API to fetch weather data. You will need an API key to use this service.
+## Installation
 
-Sign up at OpenWeatherMap and obtain your API key.
+1. **Clone the Repository:**
 
-Replace the placeholder API key in script.js with your actual API key:
+   ```bash
+   git clone https://github.com/batul-vasaiwala/Weather-App.git
 
-javascript
-Copy code
-const apiKey = 'your_api_key_here';
-Customization
-You can customize the appearance and behavior of the weather application by modifying the CSS and JavaScript files.
+2. **Navigate to the Project Directory:**
 
-styles.css: Modify styles for different elements to change the look and feel of the application.
-script.js: Modify the JavaScript code to change how weather data is fetched, displayed, or how errors are handled.
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+cd Weather-App
+3. **Open the Project in Your Browser:**
+Simply open the index.html file in your preferred web browser to view and interact with the app.
 
+## Usage
+Enter a City Name: Type the name of a city into the input field.
+Get Weather: Click the "Get Weather" button to fetch and display the weather information.
+View Weather Details: The app will display the city name, weather description, temperature, and an appropriate weather icon.
+## Contributing
+Feel free to fork the repository, make improvements, and submit pull requests. If you find any issues or have suggestions, please open an issue on GitHub.
+
+
+
+##Author
+Batul Vasaiwala
+https://github.com/batul-vasaiwala
